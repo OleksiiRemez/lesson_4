@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица 2</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div>
+        <p><a href="../index.html">вернуться на Главную</a></p>
+        <p><a href="table1.html">смотреть Таблицу 1</a></p>
+    </div>
+
+    <div>
+        <table class="w90">
+            <caption>Таблица 2 (ширина 90%)</caption>
+            <tr>
+                <td colspan="2" class="w40">1-2</td>
+                <td class="w60">3 (ширина 60%)</td>
+            </tr>
+            <tr>
+                <td class="w28">4 (ширина 28%)</td>
+                <td colspan="2" rowspan="2">
+                    <table class="w80">
+                        <caption>Дочерняя таблица (ширина 80%)</caption>
+                        <tr>
+                            <td>1</td>
+                            <td rowspan="3">2-5-8</td>
+                            <td rowspan="2" class="h200">3-6 (высота 200px)</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" class="h200">4-7(высота 200px)</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="w28">7</td>
+            </tr>
+
+        </table>
+    </div>
+
+
+</body>
+
+</html>
